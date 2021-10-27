@@ -32,7 +32,7 @@ export const dict = {
   hundreds: {
     withDefaultPostfix: (value) => value + " hundred",
   },
-  postfixes: ["thousand", "billion"],
+  postfixes: ["thousand", "million"],
 };
 
 const parseSingleDigit = (value) => {

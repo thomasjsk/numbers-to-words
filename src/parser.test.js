@@ -157,19 +157,19 @@ describe("parser", () => {
     const testCases = [
       [
         1234567,
-        `one billion and two hundred thirty four thousand and five hundred sixty seven`,
+        `one million and two hundred thirty four thousand and five hundred sixty seven`,
       ],
       [
         12345678,
-        "twelve billion and three hundred forty five thousand and six hundred seventy eight",
+        "twelve million and three hundred forty five thousand and six hundred seventy eight",
       ],
       [
         123456789,
-        "one hundred twenty three billion and four hundred fifty six thousand and seven hundred eighty nine",
+        "one hundred twenty three million and four hundred fifty six thousand and seven hundred eighty nine",
       ],
       [
         999999999,
-        "nine hundred ninety nine billion and nine hundred ninety nine thousand and nine hundred ninety nine",
+        "nine hundred ninety nine million and nine hundred ninety nine thousand and nine hundred ninety nine",
       ],
     ];
 
